@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.hakanserce.com/posts/hello-world/</loc>
+    <loc>http://blog.hakanserce.com/post/hello-world/</loc>
     <lastmod>2017-10-23T00:42:50-07:00</lastmod>
   </url>
   
@@ -19,7 +19,7 @@
   </url>
   
   <url>
-    <loc>http://blog.hakanserce.com/posts/</loc>
+    <loc>http://blog.hakanserce.com/post/</loc>
     <lastmod>2017-10-23T00:42:50-07:00</lastmod>
     <priority>0</priority>
   </url>
