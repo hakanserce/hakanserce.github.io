@@ -3,29 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.hakanserce.com/post/do-programmers-actually-need-touch-typing/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.hakanserce.com/post/hello-world/</loc>
     <lastmod>2017-10-23T00:42:50-07:00</lastmod>
   </url>
   
   <url>
+    <loc>http://blog.hakanserce.com/categories/basic-developer-skills/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.hakanserce.com/categories/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.hakanserce.com/</loc>
-    <lastmod>2017-10-23T00:42:50-07:00</lastmod>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.hakanserce.com/post/</loc>
-    <lastmod>2017-10-23T00:42:50-07:00</lastmod>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/programmer/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/programming/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.hakanserce.com/tags/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/touch-typing/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/categories/touch-typing/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
     <priority>0</priority>
   </url>
   
