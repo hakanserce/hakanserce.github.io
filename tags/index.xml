@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Learn Forever</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Oct 2017 16:04:22 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 Dec 2017 21:55:00 -0800</lastBuildDate>
     
 	<atom:link href="http://blog.hakanserce.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jq</title>
+      <link>http://blog.hakanserce.com/tags/jq/</link>
+      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/jq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Json</title>
+      <link>http://blog.hakanserce.com/tags/json/</link>
+      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/json/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Programmer</title>

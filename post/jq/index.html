@@ -236,7 +236,7 @@ ga('send', 'pageview');
 
 <p>With the above command, we download information about a list of earthquakes using <code>curl</code> and save into the file <code>earthquake.json</code>.</p>
 
-<p>The file contains <code>290</code> line, and a sample line is shown below.</p>
+<p>The file contains <code>290</code> lines, and a sample line is shown below.</p>
 
 <pre><code class="language-text">{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;metadata&quot;:{&quot;generated&quot;:1513583848000,&quot;url&quot;:&quot;https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&amp;starttime=2014-01-01&amp;endtime=2014-01-02&quot;,&quot;title&quot;:&quot;USGS Earthquakes&quot;,&quot;status&quot;:200,&quot;api&quot;:&quot;1.5.8&quot;,&quot;count&quot;:291},&quot;features&quot;:[{&quot;type&quot;:&quot;Feature&quot;,&quot;properties&quot;:{&quot;mag&quot;:1.29,&quot;place&quot;:&quot;10km SSW of Idyllwild, CA&quot;,&quot;time&quot;:1388620296020,&quot;updated&quot;:1457728844428,&quot;tz&quot;:-480,&quot;url&quot;:&quot;https://earthquake.usgs.gov/earthquakes/eventpage/ci11408890&quot;,&quot;detail&quot;:&quot;https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci11408890&amp;format=geojson&quot;,&quot;felt&quot;:null,&quot;cdi&quot;:null,&quot;mmi&quot;:null,&quot;alert&quot;:null,&quot;status&quot;:&quot;reviewed&quot;,&quot;tsunami&quot;:0,&quot;sig&quot;:26,&quot;net&quot;:&quot;ci&quot;,&quot;code&quot;:&quot;11408890&quot;,&quot;ids&quot;:&quot;,ci11408890,&quot;,&quot;sources&quot;:&quot;,ci,&quot;,&quot;types&quot;:&quot;,cap,focal-mechanism,general-link,geoserve,nearby-cities,origin,phase-data,scitech-link,&quot;,&quot;nst&quot;:39,&quot;dmin&quot;:0.06729,&quot;rms&quot;:0.09,&quot;gap&quot;:51,&quot;magType&quot;:&quot;ml&quot;,&quot;type&quot;:&quot;earthquake&quot;,&quot;title&quot;:&quot;M 1.3 - 10km SSW of Idyllwild, CA&quot;},&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-116.7776667,33.6633333,11.008]},&quot;id&quot;:&quot;ci11408890&quot;},
 </code></pre>
@@ -245,7 +245,7 @@ ga('send', 'pageview');
 
 <p>Note that the result above is a very long line of JSON, and it is not really easy to see the contents this way. It is probably better to take a look at some portion of it pretty formatted. Just using <code>jq '.'</code> gives us the formatting needed as shown below.</p>
 
-<p><a id="orgbcc7d8e"></a></p>
+<p><a id="org7e52635"></a></p>
 
 <pre><code class="language-sh">cat earthquake.json | jq '.' | head -n 20
 </code></pre>
@@ -278,7 +278,7 @@ ga('send', 'pageview');
 
 <p>Here is how we do it.</p>
 
-<p><a id="orgb9a73d2"></a></p>
+<p><a id="org3cec94b"></a></p>
 
 <pre><code class="language-sh">cat earthquake.json | jq '.features[].properties.title'
 </code></pre>
