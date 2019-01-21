@@ -8,12 +8,8 @@
   <title>jq: Ad hoc JSON processing made easy</title>
   <meta property="og:title" content="jq: Ad hoc JSON processing made easy" />
   <meta name="twitter:title" content="jq: Ad hoc JSON processing made easy" />
-  <meta name="description" content="Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.
-
-">
-  <meta property="og:description" content="Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.
-
-">
+  <meta name="description" content="Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.">
+  <meta property="og:description" content="Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.">
   <meta name="twitter:description" content="Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for …">
   <meta name="author" content="Hakan Serce"/>
   <link href='http://blog.hakanserce.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -24,7 +20,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Learn Forever" />
 
-  <meta name="generator" content="Hugo 0.31" />
+  <meta name="generator" content="Hugo 0.52" />
   <link rel="canonical" href="http://blog.hakanserce.com/post/jq/" />
   <link rel="alternate" href="http://blog.hakanserce.com/index.xml" type="application/rss+xml" title="Learn Forever">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
@@ -86,12 +82,16 @@
     </div>
 </div>
 
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-108428709-1', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-108428709-1', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 </head>
 
@@ -189,8 +189,6 @@ ga('send', 'pageview');
       <article role="main" class="blog-post">
         <p>Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.</p>
 
-<p></p>
-
 <p>Similarly if you are trying to interact with a web service API like Evernote, Pocket or Twitter you will need to deal with JSON all the same.</p>
 
 <p>There are numerous libraries available in almost all programming languages to work with JSON (See <a href="http://www.json.org">json.org</a> for a list). These libraries are the way to go when we are building production code, using the programming language of choice. Sometimes, however, all we need is to run some ad hoc requests and check the results. It is too much pain to just go ahead and write a program, or script for such cases. For instance, sometimes we just need to run a query against Elasticsearch and then get a specific field value out of the JSON response. Or maybe all we need is to dump a few field values from a query result in CSV format. Well, <code>jq</code> comes to the rescue!</p>
@@ -245,7 +243,7 @@ ga('send', 'pageview');
 
 <p>Note that the result above is a very long line of JSON, and it is not really easy to see the contents this way. It is probably better to take a look at some portion of it pretty formatted. Just using <code>jq '.'</code> gives us the formatting needed as shown below.</p>
 
-<p><a id="org7e52635"></a></p>
+<p><a id="org9517776"></a></p>
 
 <pre><code class="language-sh">cat earthquake.json | jq '.' | head -n 20
 </code></pre>
@@ -278,7 +276,7 @@ ga('send', 'pageview');
 
 <p>Here is how we do it.</p>
 
-<p><a id="org3cec94b"></a></p>
+<p><a id="orgf8f1829"></a></p>
 
 <pre><code class="language-sh">cat earthquake.json | jq '.features[].properties.title'
 </code></pre>
@@ -652,7 +650,7 @@ for feature in js['features']:
         
           <div class="disqus-comments">
             <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -737,7 +735,7 @@ for feature in js['features']:
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.31</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          <a href="http://gohugo.io">Hugo v0.52</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
           
         </p>
       </div>

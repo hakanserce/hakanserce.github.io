@@ -17,9 +17,7 @@
       <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
       
       <guid>http://blog.hakanserce.com/post/jq/</guid>
-      <description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,11 +26,8 @@
       <pubDate>Wed, 01 Nov 2017 00:00:55 -0700</pubDate>
       
       <guid>http://blog.hakanserce.com/post/how-to-learn-touch-typing-a-guide-for-seasoned-hunt-and-pecker/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://blog.hakanserce.com/img/hunt-and-peck.jpg&#34; alt=&#34;/img/hunt-and-peck.jpg&#34; title=&#34;/img/hunt-and-peck.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Learning touch typing is a lot more challenging for a seasoned hunt-and-pecker. Years and years of acquired habits are difficult to unlearn. Additionally, having daily tasks to keep up while learning to touch type, and the fact that initially touch typing is even slower than hunt-and-peck style doesn&#39;t help with the situation. However, following a disciplined process can alleviate most of the difficulties.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>Learning touch typing is a lot more challenging for a seasoned hunt-and-pecker. Years and years of acquired habits are difficult to unlearn. Additionally, having daily tasks to keep up while learning to touch type, and the fact that initially touch typing is even slower than hunt-and-peck style doesn&#39;t help with the situation. However, following a disciplined process can alleviate most of the difficulties.
+TL;DR Here is a super compact summary of the process for the impatient:</description>
     </item>
     
     <item>
@@ -52,6 +47,24 @@
       <guid>http://blog.hakanserce.com/post/hello-world/</guid>
       <description>All new programming tutorials start with &#34;Hello, World!&#34; This is not actually a programming tutorial, but the hope is to share a piece of information which could be useful for someone. I wanted to start with &#34;Hello, World!&#34; anyway.
 This is a project I delayed a very long time, and now it is time. I will try to cover a diverse set of topics including Programming Languages, Touch Typing, Editors, Note Taking and a lot more.</description>
+    </item>
+    
+    <item>
+      <title>Coding as a game.. What?</title>
+      <link>http://blog.hakanserce.com/post/coding-as-a-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.hakanserce.com/post/coding-as-a-game/</guid>
+      <description>I was looking for a site that would help me hone my coding skills in a competitive environment. I have tried sites like LeetCode, or Topcoder before, but I needed something more fun. It looks like I found what I was looking for at CodinGame. I wouldn&amp;rsquo;t call it perfect, but I like the way it provides a competitive programming environment while writing game code. There are many sections in CodinGame.</description>
+    </item>
+    
+    <item>
+      <title>Note taking for developers</title>
+      <link>http://blog.hakanserce.com/post/note-taking-for-developers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.hakanserce.com/post/note-taking-for-developers/</guid>
+      <description>&lt;p&gt;Developers take notes for many reasons. Whether it is to remember the steps to execute an operational process, or to keep a summary of a training or even to take meeting notes, note taking is a crucial part of our lives.&lt;/p&gt;</description>
     </item>
     
   </channel>
