@@ -200,7 +200,7 @@ if (!doNotTrack) {
 <div class="ox-hugo-toc toc">
 <div></div>
 
-<h2 id="table-of-contents">Table of Contents</h2>
+<div class="heading">Table of Contents</div>
 
 <ul>
 <li><a href="#basic-usage">Basic Usage</a>
@@ -220,10 +220,11 @@ if (!doNotTrack) {
 <li><a href="#adding-headers-to-a-tsv-exported-data">Adding headers to a tsv exported data</a></li>
 <li><a href="#seeing-the-fields-available-to-use">Seeing the fields available to use</a></li>
 </ul></li>
-<li><a href="#conclusion">Conclusion</a>
-</div>
-<!--endtoc--></li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul>
+
+<p></div>
+<!--endtoc--></p>
 
 <h2 id="basic-usage">Basic Usage</h2>
 
@@ -243,7 +244,7 @@ if (!doNotTrack) {
 
 <p>Note that the result above is a very long line of JSON, and it is not really easy to see the contents this way. It is probably better to take a look at some portion of it pretty formatted. Just using <code>jq '.'</code> gives us the formatting needed as shown below.</p>
 
-<p><a id="org9517776"></a></p>
+<p><a id="code-snippet--earthquake-json-pp"></a></p>
 
 <pre><code class="language-sh">cat earthquake.json | jq '.' | head -n 20
 </code></pre>
@@ -276,7 +277,7 @@ if (!doNotTrack) {
 
 <p>Here is how we do it.</p>
 
-<p><a id="orgf8f1829"></a></p>
+<p><a id="code-snippet--jq-earthquake-titles"></a></p>
 
 <pre><code class="language-sh">cat earthquake.json | jq '.features[].properties.title'
 </code></pre>
@@ -644,6 +645,10 @@ for feature in js['features']:
           </li>
         
         
+          <li class="next">
+            <a href="http://blog.hakanserce.com/post/outlook_automation_mac/" data-toggle="tooltip" data-placement="top" title="Links to Outlook e-mails: how I integrate Todoist and Outlook">Next Post &rarr;</a>
+          </li>
+        
       </ul>
 
       
@@ -726,7 +731,7 @@ for feature in js['features']:
           
           
           &nbsp;&bull;&nbsp;
-          2017
+          2019
 
           
             &nbsp;&bull;&nbsp;

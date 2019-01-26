@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.hakanserce.com/post/outlook_automation_mac/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.hakanserce.com/post/jq/</loc>
     <lastmod>2017-12-20T21:55:00-08:00</lastmod>
   </url>
@@ -23,6 +28,18 @@
   </url>
   
   <url>
+    <loc>http://blog.hakanserce.com/tags/applescript/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/automator/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.hakanserce.com/categories/basic-developer-skills/</loc>
     <lastmod>2017-11-01T00:00:55-07:00</lastmod>
     <priority>0</priority>
@@ -35,11 +52,20 @@
   </url>
   
   <url>
-    <loc>http://blog.hakanserce.com/post/coding-as-a-game/</loc>
+    <loc>http://blog.hakanserce.com/categories/computer/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.hakanserce.com/tags/game/</loc>
+    <loc>http://blog.hakanserce.com/categories/home/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/javascript-for-automation/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -56,23 +82,50 @@
   </url>
   
   <url>
+    <loc>http://blog.hakanserce.com/tags/jxa/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.hakanserce.com/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.hakanserce.com/tags/note-taking/</loc>
+    <loc>http://blog.hakanserce.com/tags/learn-forever-blog/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.hakanserce.com/post/note-taking-for-developers/</loc>
+    <loc>http://blog.hakanserce.com/tags/organized-tasks/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/outlook/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/personal/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.hakanserce.com/post/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/productivity/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -89,8 +142,20 @@
   </url>
   
   <url>
+    <loc>http://blog.hakanserce.com/tags/project/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.hakanserce.com/tags/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/todoist/</loc>
+    <lastmod>2019-01-25T00:00:00-08:00</lastmod>
     <priority>0</priority>
   </url>
   

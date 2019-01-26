@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Links to Outlook e-mails: how I integrate Todoist and Outlook</title>
+  <meta property="og:title" content="Links to Outlook e-mails: how I integrate Todoist and Outlook" />
+  <meta name="twitter:title" content="Links to Outlook e-mails: how I integrate Todoist and Outlook" />
+  <meta name="description" content="Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a todoist inbox email. This, however, sends the actual content of the email to Todoist, which might not be desirable all the time. In this post, we integrate Outlook with Todoist (or any other tool, actually) by creating links back to Outlook e-mails.">
+  <meta property="og:description" content="Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a todoist inbox email. This, however, sends the actual content of the email to Todoist, which might not be desirable all the time. In this post, we integrate Outlook with Todoist (or any other tool, actually) by creating links back to Outlook e-mails.">
+  <meta name="twitter:description" content="Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a …">
+  <meta name="author" content="Hakan Serce"/>
+  <link href='http://blog.hakanserce.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="http://blog.hakanserce.com/img/hakan-serce.jpeg" />
+  <meta name="twitter:image" content="http://blog.hakanserce.com/img/hakan-serce.jpeg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="http://blog.hakanserce.com/post/outlook_automation_mac/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Learn Forever" />
+
+  <meta name="generator" content="Hugo 0.52" />
+  <link rel="canonical" href="http://blog.hakanserce.com/post/outlook_automation_mac/" />
+  <link rel="alternate" href="http://blog.hakanserce.com/index.xml" type="application/rss+xml" title="Learn Forever">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://blog.hakanserce.com/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://blog.hakanserce.com/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="http://blog.hakanserce.com/css/highlight.min.css" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-108428709-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://blog.hakanserce.com/">Learn Forever</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Learn Forever" href="http://blog.hakanserce.com/">
+            <img class="avatar-img" src="http://blog.hakanserce.com/img/hakan-serce.jpeg" alt="Learn Forever" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Links to Outlook e-mails: how I integrate Todoist and Outlook</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on January 25, 2019
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a todoist inbox email. This, however, sends the actual content of the email to Todoist, which might not be desirable all the time. In this post, we integrate Outlook with Todoist (or any other tool, actually) by creating links back to Outlook e-mails.</p>
+
+<p>I use Outlook for my work email, and Todoist for managing my tasks. However, every time an email results in creating a task in Todoist, I struggle finding a way to refer back to the original email. I want to do this for many reasons. Sometimes the details of the task is defined in the email, sometimes I have reference documents attached to the email, or I just need to reply back to the email when I am done with the task. Sending emails directly to Todoist is not an option for me, as my workplace policies doesn&rsquo;t allow that. So, what do I do now?</p>
+
+<p>After some googling around, I noticed that it is possible to interact with Outlook using Mac Automation Scripting. What I want to have is some capability to copy link to an outlook message and use it in Todoist. So, I decided to give it a go&hellip;</p>
+
+<p>Before we dive into the scripting details, let&rsquo;s clarify what I am trying to achieve here. I would like to be able to copy links to selected Outlook emails to clipboard, and then paste them to Todoist or any other app. The links will be something in the form of <code>outlook://&lt;message id&gt;</code>. And I want to be able to click on the links and jump back to the Outlook message.</p>
+
+<p>Let&rsquo;s move to the scripting details&hellip;</p>
+
+<h2 id="mac-automation-scripting">Mac Automation Scripting</h2>
+
+<p>First, we need to gather some basic understanding of how this scripting mechanism works. <a href="https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/index.html">Mac Automation Scripting</a> allows interacting with applications to automate tasks. AppleScript is the language that Apple provides for this purpose, but it is also possible to use JavaScript for automation as well. The built-in <code>Script Editor</code> application provides a very basic IDE for editing scripts. There is built-in documentation on the available libraries via <code>File &gt; Open Dictionay...</code> menu on <code>Script Editor</code> application.</p>
+
+<h2 id="first-script-getting-selected-outlook-messages">First script: Getting selected Outlook messages</h2>
+
+<p>Now that we have some understanding of how Automation scripting works, it is time to get our hands dirty. Let&rsquo;s first try to get some information on a selected message in Outlook.</p>
+
+<pre><code class="language-applescript">tell application &quot;Microsoft Outlook&quot;
+	set selectedMessages to selected objects
+	set messageSubject to subject of item 1 of selectedMessages
+	display notification messageSubject
+end tell
+</code></pre>
+
+<p>The above script shows the subject of the selected message as a notification. You can copy and try this script in <code>Script Editor</code>. You can also try this with <a href="https://github.com/hakanserce/ob-applescript.el">ob-applescript.el</a> if you live in Org Mode.</p>
+
+<p>As I said before, you can actually use JavaScript instead of AppleScript if you don&rsquo;t feel like learning the quite uncommon syntax of AppleScript. So, here is the same functionality as above in JavaScript for comparison.</p>
+
+<pre><code class="language-javascript">var outlook = Application(&quot;Microsoft Outlook&quot;);
+
+var selectedMessageSubject = outlook.selectedObjects()[0].subject();
+
+
+var app = Application.currentApplication();
+app.includeStandardAdditions = true;
+
+app.displayNotification(selectedMessageSubject);
+
+</code></pre>
+
+<p>JavaScript version is more verbose, especially because it needs two additional lines to access the Standard Additions library, which provides various functions including one for displaying a notification. I would probably still use JavaScript instead of AppleScript for anything somewhat complicated, since I feel better with the more familiar syntax.</p>
+
+<h2 id="copying-the-link-to-selected-message-with-a-shortcut">Copying the link to selected message with a shortcut</h2>
+
+<p>Now that we know how to get selected messages, we need to create a link to that message.</p>
+
+<pre><code class="language-applescript">
+tell application &quot;Microsoft Outlook&quot;
+	set selectedMessages to selected objects
+  if selectedMessages is {} then
+    display notification &quot;Please select a message in Outlook before running the script!&quot;
+  else
+  	set messageId to id of item 1 of selectedMessages
+	  set uri to &quot;outlook://&quot; &amp; messageId
+  	set the clipboard to uri
+  	display notification &quot;URI &quot; &amp; uri &amp; &quot; copied to clipboard&quot;
+  end if
+end tell
+
+</code></pre>
+
+<p>As you can see above, in addition to just creating a URI for the selected message, we now have some error handling and user interaction built into the script to make it more user-friendly.</p>
+
+<p>To try the script, just run in it <code>Script Editor</code> as usual. When you select a message in Outlook and then run the script, it will copy the URI to the system clipboard ready to paste into Todoist (or wherever else you might want to).</p>
+
+<h2 id="opening-outlook-links-a-custom-protocol-handler">Opening outlook links: a custom protocol handler</h2>
+
+<p>Now that we are able to copy links to outlook messages, we need a way to handle those links to go back to the Outlook message. The way to do this, is to develop a custom protocol handler. This way our newly introduced <code>outlook://&lt;message id&gt;</code> urls will be recognized by macOS.</p>
+
+<p>In order to implement a custom protocol handler with AppleScript, we simply implement an <code>open location</code> handler as follows.</p>
+
+<pre><code class="language-applescript">on open location this_URL
+	set the messageId to text 11 thru -1 of this_URL
+	tell application &quot;Microsoft Outlook&quot;
+		activate
+		open message id messageId
+	end tell
+end open location
+</code></pre>
+
+<p>Then we need to turn this into an <code>app package</code> and edit its <code>Info.plist</code> to define our new URL scheme. Basically we need to go through the following steps:</p>
+
+<ol>
+<li>Save the script as an <code>app package</code> in <code>Script Editor</code>. (<code>Save... &gt; Format: Application</code>)</li>
+<li>Open <code>Finder</code> and locate the saved file. Right click and select <code>Show Package Contents</code>.</li>
+
+<li><p>Under the <code>Contents</code> folder, open <code>Info.plist</code> with your favorite text editor, and add the following content before the last two lines.</p>
+
+<pre><code class="language-xml">&lt;key&gt;CFBundleIdentifier&lt;/key&gt;
+&lt;string&gt;org.personal.outlook&lt;/string&gt;
+&lt;key&gt;CFBundleURLTypes&lt;/key&gt;
+&lt;array&gt;
+    &lt;dict&gt;
+        &lt;key&gt;CFBundleURLName&lt;/key&gt;
+        &lt;string&gt;Pass To OutlookUriHandler&lt;/string&gt;
+        &lt;key&gt;CFBundleURLSchemes&lt;/key&gt;
+        &lt;array&gt;
+            &lt;string&gt;outlook&lt;/string&gt;
+        &lt;/array&gt;
+    &lt;/dict&gt;
+&lt;/array&gt;
+</code></pre></li>
+
+<li><p>Save the file. Go back to your <code>app</code> and double click to execute it.</p></li>
+</ol>
+
+<p>Now we are basically done.  If you want to see it working, copy an Outlook message link and paste it to Todoist. Then, you should be able to just click on the link and get back to your e-mail in Outlook. You can use this link in many other places, including the command line (just run <code>open &lt;your outlook link&gt;</code>).</p>
+
+<h2 id="putting-it-all-together">Putting it all together</h2>
+
+<p>At this point, we have script that can copy links to Outlook to clipboard, so that we can paste the link to another application. And we can also click on that link (in most apps, including Todoist) to get back to Outlook. We are almost done, but not quite yet. Copying the links is very tedious&hellip;</p>
+
+<p>We need to go to Outlook to select a message, and then open our script in <code>Script Editor</code> and run it to copy links to clipboard. This process is not efficient at all. Let&rsquo;s see what we can do to make this more streamlined.</p>
+
+<p>We have a few options here. One option is to use <code>Automator</code> app to define a service with our script, and then add a keyboard shortcut to our new service. For me this didn&rsquo;t work reliably unfortunately.</p>
+
+<p>Another option is enabling system-wide script menu. Just go to <code>Script Editor</code> app, and select <code>Script Editor &gt; Preferences</code> menu, and enable <code>Show Script menu in menu bar</code>. This gives you a way to run your scripts by just clicking on the menubar icon for scripts and select your script. In order to make this work, though, we need to save our script to <code>\~/Library/Script</code> folder. After doing this, you can see your script in the menu.</p>
+
+<p>If you are like me, and still think that a keyboard shortcut would do better. You can use a more powerful script launcher like Fast Scripts.</p>
+
+<p>Now we have a neat and basic way to integrate Outlook with Todoist, or actually we have a way to link to Outlook messages, and this can be used to integrate Outlook with other applications.</p>
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="http://blog.hakanserce.com/post/jq/" data-toggle="tooltip" data-placement="top" title="jq: Ad hoc JSON processing made easy">&larr; Previous Post</a>
+          </li>
+        
+        
+      </ul>
+
+      
+        
+          <div class="disqus-comments">
+            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "blog-hakanserce" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          </div>
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="https://github.com/hakanserce" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/hakan-serce-5419104" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/1397268/hakan-serce" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="http://blog.hakanserce.com/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              Hakan Serce
+                      
+          
+          
+          &nbsp;&bull;&nbsp;
+          2019
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://blog.hakanserce.com/">Learn Forever</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.52</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://blog.hakanserce.com/js/main.js"></script>
+<script src="http://blog.hakanserce.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+<script src="http://blog.hakanserce.com/js/load-photoswipe.js"></script>
+
+
+
+  </body>
+</html>
+

@@ -6,10 +6,19 @@
     <description>Recent content on Learn Forever</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 21:55:00 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://blog.hakanserce.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Links to Outlook e-mails: how I integrate Todoist and Outlook</title>
+      <link>http://blog.hakanserce.com/post/outlook_automation_mac/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/post/outlook_automation_mac/</guid>
+      <description>&lt;p&gt;Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a todoist inbox email. This, however, sends the actual content of the email to Todoist, which might not be desirable all the time. In this post, we integrate Outlook with Todoist (or any other tool, actually) by creating links back to Outlook e-mails.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>jq: Ad hoc JSON processing made easy</title>
@@ -47,24 +56,6 @@ TL;DR Here is a super compact summary of the process for the impatient:</descrip
       <guid>http://blog.hakanserce.com/post/hello-world/</guid>
       <description>All new programming tutorials start with &#34;Hello, World!&#34; This is not actually a programming tutorial, but the hope is to share a piece of information which could be useful for someone. I wanted to start with &#34;Hello, World!&#34; anyway.
 This is a project I delayed a very long time, and now it is time. I will try to cover a diverse set of topics including Programming Languages, Touch Typing, Editors, Note Taking and a lot more.</description>
-    </item>
-    
-    <item>
-      <title>Coding as a game.. What?</title>
-      <link>http://blog.hakanserce.com/post/coding-as-a-game/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.hakanserce.com/post/coding-as-a-game/</guid>
-      <description>I was looking for a site that would help me hone my coding skills in a competitive environment. I have tried sites like LeetCode, or Topcoder before, but I needed something more fun. It looks like I found what I was looking for at CodinGame. I wouldn&amp;rsquo;t call it perfect, but I like the way it provides a competitive programming environment while writing game code. There are many sections in CodinGame.</description>
-    </item>
-    
-    <item>
-      <title>Note taking for developers</title>
-      <link>http://blog.hakanserce.com/post/note-taking-for-developers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.hakanserce.com/post/note-taking-for-developers/</guid>
-      <description>&lt;p&gt;Developers take notes for many reasons. Whether it is to remember the steps to execute an operational process, or to keep a summary of a training or even to take meeting notes, note taking is a crucial part of our lives.&lt;/p&gt;</description>
     </item>
     
   </channel>

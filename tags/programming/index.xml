@@ -29,14 +29,5 @@
       <description>Touch typing (also called touch type or touch keyboarding) is typing without using the sense of sight to find the keys. Specifically, a touch typist will know their location on the keyboard through muscle memory. (Wikipedia)  After about 20 years of programming with hunt and peck style shamelessly, I decided to learn touch typing a few months ago. I&#39;ll talk about why I decided to learn touch typing at the end of this post, but I first want to spend time on the critical question: &#34;</description>
     </item>
     
-    <item>
-      <title>Coding as a game.. What?</title>
-      <link>http://blog.hakanserce.com/post/coding-as-a-game/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.hakanserce.com/post/coding-as-a-game/</guid>
-      <description>I was looking for a site that would help me hone my coding skills in a competitive environment. I have tried sites like LeetCode, or Topcoder before, but I needed something more fun. It looks like I found what I was looking for at CodinGame. I wouldn&amp;rsquo;t call it perfect, but I like the way it provides a competitive programming environment while writing game code. There are many sections in CodinGame.</description>
-    </item>
-    
   </channel>
 </rss>

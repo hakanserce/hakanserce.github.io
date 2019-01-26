@@ -6,17 +6,35 @@
     <description>Recent content in Tags on Learn Forever</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 21:55:00 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://blog.hakanserce.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Game</title>
-      <link>http://blog.hakanserce.com/tags/game/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Applescript</title>
+      <link>http://blog.hakanserce.com/tags/applescript/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/tags/game/</guid>
+      <guid>http://blog.hakanserce.com/tags/applescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automator</title>
+      <link>http://blog.hakanserce.com/tags/automator/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/automator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript for Automation</title>
+      <link>http://blog.hakanserce.com/tags/javascript-for-automation/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/javascript-for-automation/</guid>
       <description></description>
     </item>
     
@@ -39,11 +57,56 @@
     </item>
     
     <item>
-      <title>Note Taking</title>
-      <link>http://blog.hakanserce.com/tags/note-taking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Jxa</title>
+      <link>http://blog.hakanserce.com/tags/jxa/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/tags/note-taking/</guid>
+      <guid>http://blog.hakanserce.com/tags/jxa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn Forever Blog</title>
+      <link>http://blog.hakanserce.com/tags/learn-forever-blog/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/learn-forever-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organized Tasks</title>
+      <link>http://blog.hakanserce.com/tags/organized-tasks/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/organized-tasks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outlook</title>
+      <link>http://blog.hakanserce.com/tags/outlook/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/outlook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>http://blog.hakanserce.com/tags/personal/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>http://blog.hakanserce.com/tags/productivity/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/productivity/</guid>
       <description></description>
     </item>
     
@@ -62,6 +125,24 @@
       <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
       
       <guid>http://blog.hakanserce.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>http://blog.hakanserce.com/tags/project/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Todoist</title>
+      <link>http://blog.hakanserce.com/tags/todoist/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/todoist/</guid>
       <description></description>
     </item>
     
