@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jxa on Learn Forever</title>
+    <link>http://blog.hakanserce.com/tags/jxa/</link>
+    <description>Recent content in jxa on Learn Forever</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jan 2019 23:39:00 -0800</lastBuildDate><atom:link href="http://blog.hakanserce.com/tags/jxa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links to Outlook e-mails: how I integrate Todoist and Outlook</title>
+      <link>http://blog.hakanserce.com/post/outlook_automation_mac/</link>
+      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/post/outlook_automation_mac/</guid>
+      <description>&lt;p&gt;Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a todoist inbox email. This, however, sends the actual content of the email to Todoist, which might not be desirable all the time. In this post, we integrate Outlook with Todoist (or any other tool, actually) by creating links back to Outlook e-mails.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

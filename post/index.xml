@@ -17,6 +17,24 @@
     </item>
     
     <item>
+      <title>Links to Outlook e-mails: how I integrate Todoist and Outlook</title>
+      <link>http://blog.hakanserce.com/post/outlook_automation_mac/</link>
+      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/post/outlook_automation_mac/</guid>
+      <description>&lt;p&gt;Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a todoist inbox email. This, however, sends the actual content of the email to Todoist, which might not be desirable all the time. In this post, we integrate Outlook with Todoist (or any other tool, actually) by creating links back to Outlook e-mails.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>jq: Ad hoc JSON processing made easy</title>
+      <link>http://blog.hakanserce.com/post/jq/</link>
+      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
+      
+      <guid>http://blog.hakanserce.com/post/jq/</guid>
+      <description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>How to Learn Touch Typing: a Guide for Seasoned Hunt and Pecker</title>
       <link>http://blog.hakanserce.com/post/how-to-learn-touch-typing-a-guide-for-seasoned-hunt-and-pecker/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:55 -0700</pubDate>
