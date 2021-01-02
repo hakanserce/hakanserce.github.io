@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Learn Forever</title>
@@ -6,80 +6,58 @@
     <description>Recent content in Tags on Learn Forever</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Jan 2019 23:39:00 -0800</lastBuildDate>
-    
-	<atom:link href="http://blog.hakanserce.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 01 Jan 2021 23:10:00 -0800</lastBuildDate><atom:link href="http://blog.hakanserce.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Applescript</title>
-      <link>http://blog.hakanserce.com/tags/applescript/</link>
-      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
+      <title>Android</title>
+      <link>http://blog.hakanserce.com/tags/android/</link>
+      <pubDate>Fri, 01 Jan 2021 23:10:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/tags/applescript/</guid>
+      <guid>http://blog.hakanserce.com/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Automator</title>
-      <link>http://blog.hakanserce.com/tags/automator/</link>
-      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
+      <title>Chromebook</title>
+      <link>http://blog.hakanserce.com/tags/chromebook/</link>
+      <pubDate>Fri, 01 Jan 2021 23:10:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/tags/automator/</guid>
+      <guid>http://blog.hakanserce.com/tags/chromebook/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Javascript for Automation</title>
-      <link>http://blog.hakanserce.com/tags/javascript-for-automation/</link>
-      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
+      <title>DeX</title>
+      <link>http://blog.hakanserce.com/tags/dex/</link>
+      <pubDate>Fri, 01 Jan 2021 23:10:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/tags/javascript-for-automation/</guid>
+      <guid>http://blog.hakanserce.com/tags/dex/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jq</title>
-      <link>http://blog.hakanserce.com/tags/jq/</link>
-      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
+      <title>Lapdock</title>
+      <link>http://blog.hakanserce.com/tags/lapdock/</link>
+      <pubDate>Fri, 01 Jan 2021 23:10:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/tags/jq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Json</title>
-      <link>http://blog.hakanserce.com/tags/json/</link>
-      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
-      
-      <guid>http://blog.hakanserce.com/tags/json/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jxa</title>
-      <link>http://blog.hakanserce.com/tags/jxa/</link>
-      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
-      
-      <guid>http://blog.hakanserce.com/tags/jxa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Outlook</title>
-      <link>http://blog.hakanserce.com/tags/outlook/</link>
-      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
-      
-      <guid>http://blog.hakanserce.com/tags/outlook/</guid>
+      <guid>http://blog.hakanserce.com/tags/lapdock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Productivity</title>
       <link>http://blog.hakanserce.com/tags/productivity/</link>
-      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
+      <pubDate>Fri, 01 Jan 2021 23:10:00 -0800</pubDate>
       
       <guid>http://blog.hakanserce.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Touch Typing</title>
+      <link>http://blog.hakanserce.com/tags/touch-typing/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:55 -0700</pubDate>
+      
+      <guid>http://blog.hakanserce.com/tags/touch-typing/</guid>
       <description></description>
     </item>
     
@@ -95,36 +73,9 @@
     <item>
       <title>Programming</title>
       <link>http://blog.hakanserce.com/tags/programming/</link>
-      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
+      <pubDate>Tue, 24 Oct 2017 16:04:22 -0700</pubDate>
       
       <guid>http://blog.hakanserce.com/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Todoist</title>
-      <link>http://blog.hakanserce.com/tags/todoist/</link>
-      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
-      
-      <guid>http://blog.hakanserce.com/tags/todoist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>http://blog.hakanserce.com/tags/tools/</link>
-      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
-      
-      <guid>http://blog.hakanserce.com/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Touch Typing</title>
-      <link>http://blog.hakanserce.com/tags/touch-typing/</link>
-      <pubDate>Wed, 01 Nov 2017 00:00:55 -0700</pubDate>
-      
-      <guid>http://blog.hakanserce.com/tags/touch-typing/</guid>
       <description></description>
     </item>
     

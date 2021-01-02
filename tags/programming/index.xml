@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Learn Forever</title>
@@ -6,27 +6,15 @@
     <description>Recent content in Programming on Learn Forever</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 21:55:00 -0800</lastBuildDate>
-    
-	<atom:link href="http://blog.hakanserce.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>jq: Ad hoc JSON processing made easy</title>
-      <link>http://blog.hakanserce.com/post/jq/</link>
-      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
-      
-      <guid>http://blog.hakanserce.com/post/jq/</guid>
-      <description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Tue, 24 Oct 2017 16:04:22 -0700</lastBuildDate><atom:link href="http://blog.hakanserce.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Do Programmers Actually Need Touch Typing?</title>
       <link>http://blog.hakanserce.com/post/do-programmers-actually-need-touch-typing/</link>
       <pubDate>Tue, 24 Oct 2017 16:04:22 -0700</pubDate>
       
       <guid>http://blog.hakanserce.com/post/do-programmers-actually-need-touch-typing/</guid>
-      <description>Touch typing (also called touch type or touch keyboarding) is typing without using the sense of sight to find the keys. Specifically, a touch typist will know their location on the keyboard through muscle memory. (Wikipedia)  After about 20 years of programming with hunt and peck style shamelessly, I decided to learn touch typing a few months ago. I&#39;ll talk about why I decided to learn touch typing at the end of this post, but I first want to spend time on the critical question: &#34;</description>
+      <description>Touch typing (also called touch type or touch keyboarding) is typing without using the sense of sight to find the keys. Specifically, a touch typist will know their location on the keyboard through muscle memory. (Wikipedia)
+  After about 20 years of programming with hunt and peck style shamelessly, I decided to learn touch typing a few months ago. I&amp;#39;ll talk about why I decided to learn touch typing at the end of this post, but I first want to spend time on the critical question: &amp;#34;Do Programmers Actually Need Touch Typing?</description>
     </item>
     
   </channel>

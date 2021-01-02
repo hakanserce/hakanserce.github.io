@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>ChromeDeX: Chromebook as a DeX Lapdock - Learn Forever</title>
+  <meta name="description" content="Samsung DeX is a desktop-like environment available in Samsung&rsquo;s flagship phones and tablets. I don&rsquo;t want to make this sound like ads for DeX, but it was one of the main reasons while I was deciding to switch from iPhone to a Note 10&#43; about a year and a half ago. With an external monitor, you can turn your phone into a desktop computer of some sort, or you can have more like a laptop experience on your phone using a few alternatives. I recently turned an old Chromebook lying around to my DeX laptop, my new ChromeDeX.">
+  <meta name="author" content="Hakan Serce"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Learn Forever",
+    
+    "url": "http:\/\/blog.hakanserce.com\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/blog.hakanserce.com\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/blog.hakanserce.com\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/blog.hakanserce.com\/post\/chromedex_dex_on_chromebook\/",
+          "name": "Chrome de x chromebook as a de x lapdock"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Hakan Serce"
+  },
+  "headline": "ChromeDeX: Chromebook as a DeX Lapdock",
+  "description" : "Samsung DeX is a desktop-like environment available in Samsung\u0026rsquo;s flagship phones and tablets. I don\u0026rsquo;t want to make this sound like ads for DeX, but it was one of the main reasons while I was deciding to switch from iPhone to a Note 10\u002b about a year and a half ago. With an external monitor, you can turn your phone into a desktop computer of some sort, or you can have more like a laptop experience on your phone using a few alternatives. I recently turned an old Chromebook lying around to my DeX laptop, my new ChromeDeX.\n",
+  "inLanguage" : "en",
+  "wordCount":  1805 ,
+  "datePublished" : "2021-01-01T23:10:00",
+  "dateModified" : "2021-01-01T23:10:00",
+  "image" : "http:\/\/blog.hakanserce.com\/img\/hakan-serce.jpeg",
+  "keywords" : [ "DeX, Chromebook, Android, Lapdock, Productivity" ],
+  "mainEntityOfPage" : "http:\/\/blog.hakanserce.com\/post\/chromedex_dex_on_chromebook\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/blog.hakanserce.com\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/blog.hakanserce.com\/img\/hakan-serce.jpeg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="ChromeDeX: Chromebook as a DeX Lapdock" />
+<meta property="og:description" content="Samsung DeX is a desktop-like environment available in Samsung&rsquo;s flagship phones and tablets. I don&rsquo;t want to make this sound like ads for DeX, but it was one of the main reasons while I was deciding to switch from iPhone to a Note 10&#43; about a year and a half ago. With an external monitor, you can turn your phone into a desktop computer of some sort, or you can have more like a laptop experience on your phone using a few alternatives. I recently turned an old Chromebook lying around to my DeX laptop, my new ChromeDeX.">
+<meta property="og:image" content="http://blog.hakanserce.com/img/hakan-serce.jpeg" />
+<meta property="og:url" content="http://blog.hakanserce.com/post/chromedex_dex_on_chromebook/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Learn Forever" />
+
+  <meta name="twitter:title" content="ChromeDeX: Chromebook as a DeX Lapdock" />
+  <meta name="twitter:description" content="Samsung DeX is a desktop-like environment available in Samsung&rsquo;s flagship phones and tablets. I don&rsquo;t want to make this sound like ads for DeX, but it was one of the main reasons while I …">
+  <meta name="twitter:image" content="http://blog.hakanserce.com/img/hakan-serce.jpeg" />
+  <meta name="twitter:card" content="summary" />
+  <link href='http://blog.hakanserce.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.79.1" />
+  <link rel="alternate" href="http://blog.hakanserce.com/index.xml" type="application/rss+xml" title="Learn Forever"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="http://blog.hakanserce.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://blog.hakanserce.com/css/highlight.min.css" /><link rel="stylesheet" href="http://blog.hakanserce.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-108428709-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://blog.hakanserce.com/">Learn Forever</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Learn Forever" href="http://blog.hakanserce.com/">
+            <img class="avatar-img" src="http://blog.hakanserce.com/img/hakan-serce.jpeg" alt="Learn Forever" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>ChromeDeX: Chromebook as a DeX Lapdock</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 2021
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;9&nbsp;minutes
+  
+  
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Samsung DeX is a desktop-like environment available in Samsung&rsquo;s flagship phones and tablets. I don&rsquo;t want to make this sound like ads for DeX, but it was one of the main reasons while I was deciding to switch from iPhone to a Note 10+ about a year and a half ago. With an external monitor, you can turn your phone into a desktop computer of some sort, or you can have more like a laptop experience on your phone using a few alternatives. I recently turned an old Chromebook lying around to my DeX laptop, my new ChromeDeX.</p>
+<p>It&rsquo;s been a while since my last post. I want to write more frequently, but I always find reasons to procrastinate. Anyway, I finally found some time to get back to my blog, and this time I wanted to write about my new personal mobile productivity experience. It is based on Samsung&rsquo;s Desktop Experience (DeX) on a Chromebook. So, let&rsquo;s get into the details.</p>
+<h2 id="what-is-dex">What is DeX</h2>
+<p>Let&rsquo;s start with how <a href="https://www.samsung.com/us/business/solutions/samsung-dex/">Samsung</a> defines DeX:</p>
+<blockquote>
+<p>Samsung DeX is a platform built into the latest Galaxy phone and tablets, allowing you to power a desktop-like experience on an external display.</p>
+</blockquote>
+<p>That sounds great, but actually there is more in the details. Let&rsquo;s talk about how you can &ldquo;activate&rdquo; DeX, for instance. Nowadays, there are a handful of different ways:</p>
+<ol>
+<li>Activate DeX mode on tablets directly - with a keyboard case this works wonders</li>
+<li>Connect to an external monitor - with a USB-C Hub this is the ultimate desktop experience with DeX</li>
+<li>Wireless DeX to a TV screen</li>
+<li>Connect to a Lapdock - arguably ultimate laptop experience with DeX</li>
+<li>Connect to a Mac or Windows PC and use the DeX application</li>
+</ol>
+<p>I have <a href="https://termux.com">Termux</a> installed on my Note 10+, and with emacs and org-mode, I almost have a full development environment for my pet projects on my phone. I have a fairly nice desktop environment with an ultra-wide monitor, mechanical keyboard, etc. on my desk that I share between my work laptop and DeX. This all sounds great, and it is, most of the time. The problem is, mobility or more like the lack of it.</p>
+<p>I tried using a bluetooth keyboard directly with the phone screen, but the screen is simply too small for sessions longer than a few minutes. Although Note 10+ has one of the largest phone screens around, it is still way too small to pretend to be a monitor or laptop screen. My eyes start hurting trying to focus on text in Termux too soon to get anything done. I tried to use the wireless DeX on the TV, but that also doesn&rsquo;t work mostly, as we want to use the TV for other less serious purposes, like watching a TV show.</p>
+<p>Let&rsquo;s be clear. What I have been missing is a mobile (more a like a laptop) setup that I can carry around with me. Options are the last two above: Lapdock or DeX app on PC/Mac.</p>
+<p>The idea of Lapdock is great. Think about a shell laptop without the brains. It provides a monitor, a touch-pad, a keyboard, battery and ports, while an external device (such as a DeX capable phone/tablet, or a Raspberry Pi, etc) provides the brains. There are only a few implementations of Lapdocks yet, including multiple versions of <a href="http://nexdock.com">NexDock</a> which you can buy for around $250-$300. However, I keep hearing bad stories about the quality of the touch-pad on these. Besides, even if you are fine with the touch-pad issues, it is still not easy to get your hands on one as they are back-ordered typically. I&rsquo;ll probably wait a bit more on this, to give lapdocks some more time to mature. You never know, maybe even Samsung will decide to deliver a good one at some point.</p>
+<p>The next best option is to use a Mac or Windows PC with the DeX application. I have a Mac for work, but I don&rsquo;t want to use that for personal projects. I don&rsquo;t have any other Mac or Windows laptop available to me at this time, and I don&rsquo;t want to buy one just for DeX.</p>
+<p>Luckily, I have an old Chromebook lying around. So, I thought maybe I can get it to work with DeX.</p>
+<h2 id="what-about-a-chromebook">What about a Chromebook?</h2>
+<p>Chromebooks are praised for their great keyboards and touch-pads - probably much better than a Lapdock - at a typically very low price level. I have a Toshiba Chromebook 2 (Swanky) from 2014, no longer able to satisfy the online schooling requirements for my kids. I tried installing Linux a few months ago, but the 16 GB or so disk size was too small for my needs. As a result, it was lying around idly for most of the time.</p>
+<p>I thought about using the Chromebook with DeX before, but turning it to a Lapdock was too much of an electronics challenge (for me, at least). Then, I checked to see if there are any Chrome or Linux DeX apps similar to Mac/Windows, but that was a dead end as well. There is <a href="https://kmyers.me/blog/android/dexonlinux-dexonchromeos-how-to-no-root/">a solution by Keith Myers</a>, but it requires multiple pieces of hardware (USB-C to HDMI dock, HDMI terminator, etc) and even then it doesn&rsquo;t work fully.</p>
+<p>Then, I thought maybe it is possible to install Windows to my Chromebook. It would probably be dead-slow with Windows with so little resources on the Chromebook, but maybe I could make it work if I don&rsquo;t install anything other than the DeX app.</p>
+<h2 id="windows-on-a-chromebook">Windows on a Chromebook?</h2>
+<p>It turns out it is actually quite possible to install Windows on Chromebooks, at least to some of them. There is a whole subreddit - <a href="https://www.reddit.com/r/chrultrabook/">r/chrultrabook</a> - focusing on converting Chromebooks to Windows or Linux. <a href="https://www.reddit.com/r/chrultrabook/comments/aufp1q/getting%5Fstarted%5Fread%5Fthis%5Ffirst/">This post</a> explains which Chromebook devices are supported and how, in detail. Fortunately, my Chromebook was in the list of supported devices.</p>
+<p>I didn&rsquo;t know how well Windows would fare on my limited resource Chromebook, but I was thinking that the DeX application on Windows should work fine. Samsung and Microsoft partnered in the recent years to deliver a better <code>Android</code> + <code>Windows</code> experience to compete with the close-to-perfect <code>macOS</code> + <code>iOS</code> experience. So, it should work fine, I thought.</p>
+<p>How do we install Windows to a Chromebook, then? <a href="https://www.reddit.com/r/chrultrabook/comments/aufp1q/getting%5Fstarted%5Fread%5Fthis%5Ffirst/">MrChromebox&rsquo;s Reddit post</a> clearly identifies the steps to take. I was also able to find specific instructions for my Chromebook (Swanky) on <a href="https://coolstar.org/chromebook/windows-install.html?device=swanky">coolstar.org</a>.</p>
+<h2 id="steps-to-chromedex">Steps to ChromeDeX</h2>
+<p>Let&rsquo;s go through the steps together and also talk about some of the problems and solutions I had to deal with during the process.</p>
+<h3 id="1-developer-mode-and-flashing-uefi-firmware">1- Developer Mode and flashing UEFI firmware</h3>
+<p>This is probably the scariest of the steps. The specific steps for each device might be slightly different, but typically this involves opening the back of the Chromebook and removing a Write Protect Screw. Then we flash MrChromebox&rsquo;s UEFI firmware. Just follow the detailed instructions on coolstar.org.</p>
+<p>I didn&rsquo;t really have any issues in this step, as I had gone through this once before for installing Linux. Even removing the Write Protect Screw was much easier than I had anticipated. Still be careful and make sure that you follow the instructions for your specific Chromebook model to the letter. This is the step where you can brick your Chromebook. You are warned!</p>
+<p>When you are done with the UEFI firmware flash, your device is ready to install a new OS, Windows 10 in this case.</p>
+<h3 id="2-prepare-a-windows-installation-usb-drive">2- Prepare a windows installation USB drive</h3>
+<p>Next step is to prepare a USB drive as a Windows 10 installation media. At first, I thought I could simply download the Windows 10 installer ISO image from the Microsoft website and just write to a USB drive using the EtchDroid application directly on my phone. Seemed to work fine, until I get a &ldquo;no device driver found&rdquo; error during the Windows 10 setup. This stalled me for a few hours as I tried many things suggested by people having a similar issues. Then I switched back to the recommended method: using another Windows computer to visit <a href="https://www.microsoft.com/software-download/windows10">this link</a> and install and use the media creation tool provided there. After doing this, everything worked great.</p>
+<h3 id="3-get-a-usb-keyboard-and-mouse-ready">3- Get a USB keyboard and mouse ready</h3>
+<p>This is just needed during installation, as until we are done with the full installation followed by device driver installation, the laptop keyboard and touch-pad is not fully functional. In my case, the keyboard mostly worked fine, but I still needed a mouse in a few places during the setup.</p>
+<h3 id="4-install-windows">4- Install Windows</h3>
+<p>This is a straight forward step if you used another Windows computer to create the installation media, as explained above. Simply put the USB drive into one of the USB ports on your Chromebook, start the computer, then choose the Boot Option as the drive. When Windows 10 setup starts, just follow through the steps.</p>
+<h3 id="5-install-device-drivers">5- Install device drivers</h3>
+<p>When you are done with the installation, Windows will not see a few important devices, such as the touchpad and sound device. You will also need a few other drivers to help it work more efficiently. All needed files are available from coolstar.org. Just download the files and install one at a time, following the steps in the wizards.</p>
+<h3 id="6-compress-installation">6- Compress Installation</h3>
+<p>As the Chromebooks doesn&rsquo;t have much disk space, it was a delight that coolstar.org also provided instructions for compressing the installation after we are done.</p>
+<h3 id="7-install-dex-application">7- Install DeX Application</h3>
+<p>At this point we have a working Windows 10 on a Chromebook with little space left on the disk. In my case, I had around 4 GB or so left. For me, it was also really slow. The one thing that we still need to install is the DeX application. At this point head to <a href="https://www.samsung.com/us/explore/dex/">DeX website</a>, download and install the Windows version of the application. Once you have installed it, you won&rsquo;t be using Windows at all other than directly going into the DeX application full screen, so speed will no longer be much of an issue.</p>
+<p>With this final step you are ready to go. Now you can connect your phone to your Windows Chromebook with a USB-A to USB-C cable and start using your ChromeDeX!</p>
+<h2 id="final-notes">Final notes</h2>
+<p>I have been using my ChromeDeX for the last two days or so, and I have written most of this post on it (using Emacs org-mode and Hugo on Termux, more on this setup in a later post). It is not the fastest DeX experience, but it is perfectly usable for me for now. I really like having the freedom to have my DeX environment away from my desk.</p>
+<p>A small improvement to the setup is using a magnetic phone mount (<a href="https://amzn.to/2KJLyxH">like this</a>) and a short cable (<a href="https://amzn.to/2Msp1Wz">like this</a>). Here is a picture of my cute &ldquo;new&rdquo; ChromeDeX:</p>
+
+<link rel="stylesheet" href="http://blog.hakanserce.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/chromedex_front.jpg" alt="/img/chromedex_front.jpg"/>
+    </div>
+    <a href="/img/chromedex_front.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+<p>and another showing the backside:</p>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/chromedex_back.jpg" alt="/img/chromedex_back.jpg"/>
+    </div>
+    <a href="/img/chromedex_back.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+        
+          <div class="blog-tags">
+            
+              <a href="http://blog.hakanserce.com//tags/dex/">DeX</a>&nbsp;
+            
+              <a href="http://blog.hakanserce.com//tags/chromebook/">Chromebook</a>&nbsp;
+            
+              <a href="http://blog.hakanserce.com//tags/android/">Android</a>&nbsp;
+            
+              <a href="http://blog.hakanserce.com//tags/lapdock/">Lapdock</a>&nbsp;
+            
+              <a href="http://blog.hakanserce.com//tags/productivity/">Productivity</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=http%3a%2f%2fblog.hakanserce.com%2fpost%2fchromedex_dex_on_chromebook%2f&amp;text=ChromeDeX%3a%20Chromebook%20as%20a%20DeX%20Lapdock&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.hakanserce.com%2fpost%2fchromedex_dex_on_chromebook%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2fblog.hakanserce.com%2fpost%2fchromedex_dex_on_chromebook%2f&amp;title=ChromeDeX%3a%20Chromebook%20as%20a%20DeX%20Lapdock" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fblog.hakanserce.com%2fpost%2fchromedex_dex_on_chromebook%2f&amp;title=ChromeDeX%3a%20Chromebook%20as%20a%20DeX%20Lapdock" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fblog.hakanserce.com%2fpost%2fchromedex_dex_on_chromebook%2f&amp;title=ChromeDeX%3a%20Chromebook%20as%20a%20DeX%20Lapdock" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fblog.hakanserce.com%2fpost%2fchromedex_dex_on_chromebook%2f&amp;description=ChromeDeX%3a%20Chromebook%20as%20a%20DeX%20Lapdock" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://blog.hakanserce.com/post/how-to-learn-touch-typing-a-guide-for-seasoned-hunt-and-pecker/" data-toggle="tooltip" data-placement="top" title="How to Learn Touch Typing: a Guide for Seasoned Hunt and Pecker">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="http://blog.hakanserce.com/post/chromedex_dex_on_chromebook">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'http:\/\/blog.hakanserce.com\/post\/chromedex_dex_on_chromebook';
+            };
+
+          </script>
+          </div>
+          
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="https://github.com/hakanserce" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/hakan-serce-5419104" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/1397268/hakan-serce" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              Hakan Serce
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2021
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://blog.hakanserce.com/">Learn Forever</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.79.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="http://blog.hakanserce.com/js/main.js"></script>
+<script src="http://blog.hakanserce.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://blog.hakanserce.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'blog-hakanserce';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//blog-hakanserce.disqus.com/count.js" async></script>
+
+
+
+
+    
+  </body>
+</html>
+

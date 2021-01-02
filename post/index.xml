@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Learn Forever</title>
@@ -6,27 +6,14 @@
     <description>Recent content in Posts on Learn Forever</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Jan 2019 23:39:00 -0800</lastBuildDate>
-    
-	<atom:link href="http://blog.hakanserce.com/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 01 Jan 2021 23:10:00 -0800</lastBuildDate><atom:link href="http://blog.hakanserce.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Links to Outlook e-mails: how I integrate Todoist and Outlook</title>
-      <link>http://blog.hakanserce.com/post/outlook_automation_mac/</link>
-      <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
+      <title>ChromeDeX: Chromebook as a DeX Lapdock</title>
+      <link>http://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</link>
+      <pubDate>Fri, 01 Jan 2021 23:10:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/post/outlook_automation_mac/</guid>
-      <description>&lt;p&gt;Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a todoist inbox email. This, however, sends the actual content of the email to Todoist, which might not be desirable all the time. In this post, we integrate Outlook with Todoist (or any other tool, actually) by creating links back to Outlook e-mails.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>jq: Ad hoc JSON processing made easy</title>
-      <link>http://blog.hakanserce.com/post/jq/</link>
-      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
-      
-      <guid>http://blog.hakanserce.com/post/jq/</guid>
-      <description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
+      <guid>http://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</guid>
+      <description>&lt;p&gt;Samsung DeX is a desktop-like environment available in Samsung&amp;rsquo;s flagship phones and tablets. I don&amp;rsquo;t want to make this sound like ads for DeX, but it was one of the main reasons while I was deciding to switch from iPhone to a Note 10+ about a year and a half ago. With an external monitor, you can turn your phone into a desktop computer of some sort, or you can have more like a laptop experience on your phone using a few alternatives. I recently turned an old Chromebook lying around to my DeX laptop, my new ChromeDeX.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,8 +22,8 @@
       <pubDate>Wed, 01 Nov 2017 00:00:55 -0700</pubDate>
       
       <guid>http://blog.hakanserce.com/post/how-to-learn-touch-typing-a-guide-for-seasoned-hunt-and-pecker/</guid>
-      <description>Learning touch typing is a lot more challenging for a seasoned hunt-and-pecker. Years and years of acquired habits are difficult to unlearn. Additionally, having daily tasks to keep up while learning to touch type, and the fact that initially touch typing is even slower than hunt-and-peck style doesn&#39;t help with the situation. However, following a disciplined process can alleviate most of the difficulties.
-TL;DR Here is a super compact summary of the process for the impatient:</description>
+      <description>Learning touch typing is a lot more challenging for a seasoned hunt-and-pecker. Years and years of acquired habits are difficult to unlearn. Additionally, having daily tasks to keep up while learning to touch type, and the fact that initially touch typing is even slower than hunt-and-peck style doesn&amp;#39;t help with the situation. However, following a disciplined process can alleviate most of the difficulties.
+TL;DR   Here is a super compact summary of the process for the impatient:</description>
     </item>
     
     <item>
@@ -45,7 +32,8 @@ TL;DR Here is a super compact summary of the process for the impatient:</descrip
       <pubDate>Tue, 24 Oct 2017 16:04:22 -0700</pubDate>
       
       <guid>http://blog.hakanserce.com/post/do-programmers-actually-need-touch-typing/</guid>
-      <description>Touch typing (also called touch type or touch keyboarding) is typing without using the sense of sight to find the keys. Specifically, a touch typist will know their location on the keyboard through muscle memory. (Wikipedia)  After about 20 years of programming with hunt and peck style shamelessly, I decided to learn touch typing a few months ago. I&#39;ll talk about why I decided to learn touch typing at the end of this post, but I first want to spend time on the critical question: &#34;</description>
+      <description>Touch typing (also called touch type or touch keyboarding) is typing without using the sense of sight to find the keys. Specifically, a touch typist will know their location on the keyboard through muscle memory. (Wikipedia)
+  After about 20 years of programming with hunt and peck style shamelessly, I decided to learn touch typing a few months ago. I&amp;#39;ll talk about why I decided to learn touch typing at the end of this post, but I first want to spend time on the critical question: &amp;#34;Do Programmers Actually Need Touch Typing?</description>
     </item>
     
     <item>
@@ -54,8 +42,8 @@ TL;DR Here is a super compact summary of the process for the impatient:</descrip
       <pubDate>Mon, 23 Oct 2017 00:42:50 -0700</pubDate>
       
       <guid>http://blog.hakanserce.com/post/hello-world/</guid>
-      <description>All new programming tutorials start with &#34;Hello, World!&#34; This is not actually a programming tutorial, but the hope is to share a piece of information which could be useful for someone. I wanted to start with &#34;Hello, World!&#34; anyway.
-This is a project I delayed a very long time, and now it is time. I will try to cover a diverse set of topics including Programming Languages, Touch Typing, Editors, Note Taking and a lot more.</description>
+      <description>All new programming tutorials start with &amp;#34;Hello, World!&amp;#34; This is not actually a programming tutorial, but the hope is to share a piece of information which could be useful for someone. I wanted to start with &amp;#34;Hello, World!&amp;#34; anyway.
+ This is a project I delayed a very long time, and now it is time. I will try to cover a diverse set of topics including Programming Languages, Touch Typing, Editors, Note Taking and a lot more.</description>
     </item>
     
   </channel>
