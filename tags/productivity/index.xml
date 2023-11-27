@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity on Learn Forever</title>
-    <link>http://blog.hakanserce.com/tags/productivity/</link>
+    <link>https://blog.hakanserce.com/tags/productivity/</link>
     <description>Recent content in Productivity on Learn Forever</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jan 2021 23:10:00 -0800</lastBuildDate>
     
-	<atom:link href="http://blog.hakanserce.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.hakanserce.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ChromeDeX: Chromebook as a DeX Lapdock</title>
-      <link>http://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</link>
+      <link>https://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</link>
       <pubDate>Fri, 01 Jan 2021 23:10:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</guid>
+      <guid>https://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</guid>
       <description>&lt;p&gt;Samsung DeX is a desktop-like environment available in Samsung&amp;rsquo;s flagship phones and tablets. I don&amp;rsquo;t want to make this sound like ads for DeX, but it was one of the main reasons while I was deciding to switch from iPhone to a Note 10+ about a year and a half ago. With an external monitor, you can turn your phone into a desktop computer of some sort, or you can have more like a laptop experience on your phone using a few alternatives. I recently turned an old Chromebook lying around to my DeX laptop, my new ChromeDeX.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Links to Outlook e-mails: how I integrate Todoist and Outlook</title>
-      <link>http://blog.hakanserce.com/post/outlook_automation_mac/</link>
+      <link>https://blog.hakanserce.com/post/outlook_automation_mac/</link>
       <pubDate>Fri, 25 Jan 2019 23:39:00 -0800</pubDate>
       
-      <guid>http://blog.hakanserce.com/post/outlook_automation_mac/</guid>
+      <guid>https://blog.hakanserce.com/post/outlook_automation_mac/</guid>
       <description>&lt;p&gt;Todoist is a great multi-platform task manager, and it provides facilities to integrate with many other tools including e-mail apps. Email integration is typically via forwarding your e-email to a todoist inbox email. This, however, sends the actual content of the email to Todoist, which might not be desirable all the time. In this post, we integrate Outlook with Todoist (or any other tool, actually) by creating links back to Outlook e-mails.&lt;/p&gt;</description>
     </item>
     
