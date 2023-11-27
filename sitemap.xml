@@ -83,31 +83,6 @@
   </url>
   
   <url>
-    <loc>http://blog.hakanserce.com/tags/jq/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.hakanserce.com/post/jq/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.hakanserce.com/tags/json/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.hakanserce.com/tags/programming/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.hakanserce.com/tags/tools/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://blog.hakanserce.com/categories/basic-developer-skills/</loc>
     <lastmod>2017-11-01T00:00:55-07:00</lastmod>
   </url>
@@ -139,6 +114,11 @@
   
   <url>
     <loc>http://blog.hakanserce.com/tags/programmer/</loc>
+    <lastmod>2017-10-24T16:04:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.hakanserce.com/tags/programming/</loc>
     <lastmod>2017-10-24T16:04:22-07:00</lastmod>
   </url>
   

@@ -6,7 +6,11 @@
     <description>Recent content in Productivity on Learn Forever</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 23:10:00 -0800</lastBuildDate><atom:link href="http://blog.hakanserce.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 23:10:00 -0800</lastBuildDate>
+    
+	<atom:link href="http://blog.hakanserce.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>ChromeDeX: Chromebook as a DeX Lapdock</title>
       <link>http://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</link>
