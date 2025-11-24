@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tools on Learn Forever</title>
-    <link>http://blog.hakanserce.com/tags/tools/</link>
-    <description>Recent content in tools on Learn Forever</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Tools on Learn Forever</title>
+    <link>https://blog.hakanserce.com/tags/tools/</link>
+    <description>Recent content in Tools on Learn Forever</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 21:55:00 -0800</lastBuildDate><atom:link href="http://blog.hakanserce.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2017 21:55:00 -0800</lastBuildDate>
+    <atom:link href="https://blog.hakanserce.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>jq: Ad hoc JSON processing made easy</title>
-      <link>http://blog.hakanserce.com/post/jq/</link>
+      <link>https://blog.hakanserce.com/post/jq/</link>
       <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
-      
-      <guid>http://blog.hakanserce.com/post/jq/</guid>
+      <guid>https://blog.hakanserce.com/post/jq/</guid>
       <description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

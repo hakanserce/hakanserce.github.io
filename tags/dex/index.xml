@@ -4,21 +4,16 @@
     <title>DeX on Learn Forever</title>
     <link>https://blog.hakanserce.com/tags/dex/</link>
     <description>Recent content in DeX on Learn Forever</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jan 2021 23:10:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://blog.hakanserce.com/tags/dex/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://blog.hakanserce.com/tags/dex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChromeDeX: Chromebook as a DeX Lapdock</title>
       <link>https://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</link>
       <pubDate>Fri, 01 Jan 2021 23:10:00 -0800</pubDate>
-      
       <guid>https://blog.hakanserce.com/post/chromedex_dex_on_chromebook/</guid>
       <description>&lt;p&gt;Samsung DeX is a desktop-like environment available in Samsung&amp;rsquo;s flagship phones and tablets. I don&amp;rsquo;t want to make this sound like ads for DeX, but it was one of the main reasons while I was deciding to switch from iPhone to a Note 10+ about a year and a half ago. With an external monitor, you can turn your phone into a desktop computer of some sort, or you can have more like a laptop experience on your phone using a few alternatives. I recently turned an old Chromebook lying around to my DeX laptop, my new ChromeDeX.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
