@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.hakanserce.com/post/version_managers/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.hakanserce.com/tags/java/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.hakanserce.com/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.hakanserce.com/post/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.hakanserce.com/tags/programming/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.hakanserce.com/tags/sdk/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.hakanserce.com/tags/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.hakanserce.com/tags/tools/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.hakanserce.com/tags/android/</loc>
     <lastmod>2021-01-01T23:10:00-08:00</lastmod>
   </url><url>
@@ -17,16 +41,7 @@
     <loc>https://blog.hakanserce.com/tags/lapdock/</loc>
     <lastmod>2021-01-01T23:10:00-08:00</lastmod>
   </url><url>
-    <loc>https://blog.hakanserce.com/</loc>
-    <lastmod>2021-01-01T23:10:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.hakanserce.com/post/</loc>
-    <lastmod>2021-01-01T23:10:00-08:00</lastmod>
-  </url><url>
     <loc>https://blog.hakanserce.com/tags/productivity/</loc>
-    <lastmod>2021-01-01T23:10:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.hakanserce.com/tags/</loc>
     <lastmod>2021-01-01T23:10:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.hakanserce.com/tags/applescript/</loc>
@@ -57,12 +72,6 @@
     <lastmod>2017-12-20T21:55:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.hakanserce.com/tags/json/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.hakanserce.com/tags/programming/</loc>
-    <lastmod>2017-12-20T21:55:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.hakanserce.com/tags/tools/</loc>
     <lastmod>2017-12-20T21:55:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.hakanserce.com/categories/basic-developer-skills/</loc>

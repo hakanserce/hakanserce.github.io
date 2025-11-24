@@ -6,8 +6,15 @@
     <description>Recent content in Programming on Learn Forever</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 21:55:00 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.hakanserce.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Java in 2025, and Version Managers</title>
+      <link>https://blog.hakanserce.com/post/version_managers/</link>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.hakanserce.com/post/version_managers/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.hakanserce.com/img/jdk-vendors-versions-confused-dev.png&#34; alt=&#34;Installing Java in 2025&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Remember when installing Java meant one download, one version, once choice? Back in the old days, you would head over to &lt;a href=&#34;https://web.archive.org/web/20030401132320/http://java.sun.com/getjava/&#34;&gt;java.sun.com&lt;/a&gt; or later to Oracle website to download the installer, click through a few prompts, and you were done. Life was simple.&lt;/p&gt;&#xA;&lt;p&gt;Back then, there was typically one widely-adopted version of Java that would remain stable for years. You didn&amp;rsquo;t need to think much about version management because there wasn&amp;rsquo;t much to manage. Over the years, a lot has changed.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>jq: Ad hoc JSON processing made easy</title>
       <link>https://blog.hakanserce.com/post/jq/</link>
