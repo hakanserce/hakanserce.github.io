@@ -6,8 +6,15 @@
     <description>Recent content in Json on Learn Forever</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2017 21:55:00 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 10:08:42 -0800</lastBuildDate>
     <atom:link href="https://blog.hakanserce.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extracting Reddit Data with AI</title>
+      <link>https://blog.hakanserce.com/post/reddit-ai-integration/</link>
+      <pubDate>Tue, 25 Nov 2025 10:08:42 -0800</pubDate>
+      <guid>https://blog.hakanserce.com/post/reddit-ai-integration/</guid>
+      <description>&lt;p&gt;A few days ago, I stumbled upon a Reddit thread packed with API recommendations. The thread was long, detailed, and exactly what I needed—except I didn&amp;rsquo;t want to manually comb through dozens of comments. I figured this was the perfect job for AI. Spoiler alert: it wasn&amp;rsquo;t as straightforward as I expected.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>jq: Ad hoc JSON processing made easy</title>
       <link>https://blog.hakanserce.com/post/jq/</link>

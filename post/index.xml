@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Learn Forever</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 10:08:42 -0800</lastBuildDate>
     <atom:link href="https://blog.hakanserce.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extracting Reddit Data with AI</title>
+      <link>https://blog.hakanserce.com/post/reddit-ai-integration/</link>
+      <pubDate>Tue, 25 Nov 2025 10:08:42 -0800</pubDate>
+      <guid>https://blog.hakanserce.com/post/reddit-ai-integration/</guid>
+      <description>&lt;p&gt;A few days ago, I stumbled upon a Reddit thread packed with API recommendations. The thread was long, detailed, and exactly what I needed—except I didn&amp;rsquo;t want to manually comb through dozens of comments. I figured this was the perfect job for AI. Spoiler alert: it wasn&amp;rsquo;t as straightforward as I expected.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Installing Java in 2025, and Version Managers</title>
       <link>https://blog.hakanserce.com/post/version_managers/</link>
