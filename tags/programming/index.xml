@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Programming on Learn Forever</title>
-    <link>https://blog.hakanserce.com/tags/programming/</link>
-    <description>Recent content in Programming on Learn Forever</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 25 Nov 2025 10:08:42 -0800</lastBuildDate>
-    <atom:link href="https://blog.hakanserce.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Extracting Reddit Data with AI</title>
-      <link>https://blog.hakanserce.com/post/reddit-ai-integration/</link>
-      <pubDate>Tue, 25 Nov 2025 10:08:42 -0800</pubDate>
-      <guid>https://blog.hakanserce.com/post/reddit-ai-integration/</guid>
-      <description>&lt;p&gt;A few days ago, I stumbled upon a Reddit thread packed with API recommendations. The thread was long, detailed, and exactly what I needed—except I didn&amp;rsquo;t want to manually comb through dozens of comments. I figured this was the perfect job for AI. Spoiler alert: it wasn&amp;rsquo;t as straightforward as I expected.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Installing Java in 2025, and Version Managers</title>
-      <link>https://blog.hakanserce.com/post/version_managers/</link>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.hakanserce.com/post/version_managers/</guid>
-      <description>&lt;p&gt;Remember when installing Java meant one download, one version, once choice? Back in the old days, you would head over to &lt;a href=&#34;https://web.archive.org/web/20030401132320/http://java.sun.com/getjava/&#34;&gt;java.sun.com&lt;/a&gt; or later to Oracle website to download the installer, click through a few prompts, and you were done. Life was simple.&lt;/p&gt;&#xA;&lt;p&gt;Back then, there was typically one widely-adopted version of Java that would remain stable for years. You didn&amp;rsquo;t need to think much about version management because there wasn&amp;rsquo;t much to manage. Over the years, a lot has changed.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>jq: Ad hoc JSON processing made easy</title>
-      <link>https://blog.hakanserce.com/post/jq/</link>
-      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
-      <guid>https://blog.hakanserce.com/post/jq/</guid>
-      <description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Do Programmers Actually Need Touch Typing?</title>
-      <link>https://blog.hakanserce.com/post/do-programmers-actually-need-touch-typing/</link>
-      <pubDate>Tue, 24 Oct 2017 16:04:22 -0700</pubDate>
-      <guid>https://blog.hakanserce.com/post/do-programmers-actually-need-touch-typing/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Touch typing (also called touch type or touch keyboarding) is typing without using the sense of sight to find the keys. Specifically, a touch typist will know their location on the keyboard through muscle memory.&lt;/em&gt; &lt;strong&gt;(Wikipedia)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;After about 20 years of programming with hunt and peck style shamelessly, I decided to learn touch typing a few months ago. I&amp;#39;ll talk about why I decided to learn touch typing at the end of this post, but I first want to spend time on the critical question: &amp;#34;Do Programmers Actually Need Touch Typing?&amp;#34;.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Programming on Learn Forever</title>
+		<link>https://blog.hakanserce.com/tags/programming/</link>
+		<description>Recent content in Programming on Learn Forever</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 25 Nov 2025 10:08:42 -0800</lastBuildDate>
+		
+			<atom:link href="https://blog.hakanserce.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Extracting Reddit Data with AI</title>
+				<link>https://blog.hakanserce.com/post/reddit-ai-integration/</link>
+				<pubDate>Tue, 25 Nov 2025 10:08:42 -0800</pubDate>
+				<guid>https://blog.hakanserce.com/post/reddit-ai-integration/</guid>
+				<description>&lt;p&gt;A few days ago, I stumbled upon a Reddit thread packed with API recommendations. The thread was long, detailed, and exactly what I needed—except I didn&amp;rsquo;t want to manually comb through dozens of comments. I figured this was the perfect job for AI. Spoiler alert: it wasn&amp;rsquo;t as straightforward as I expected.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Installing Java in 2025, and Version Managers</title>
+				<link>https://blog.hakanserce.com/post/version_managers/</link>
+				<pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://blog.hakanserce.com/post/version_managers/</guid>
+				<description>&lt;p&gt;Remember when installing Java meant one download, one version, once choice? Back in the old days, you would head over to &lt;a href=&#34;https://web.archive.org/web/20030401132320/http://java.sun.com/getjava/&#34;&gt;java.sun.com&lt;/a&gt; or later to Oracle website to download the installer, click through a few prompts, and you were done. Life was simple.&lt;/p&gt;&#xA;&lt;p&gt;Back then, there was typically one widely-adopted version of Java that would remain stable for years. You didn&amp;rsquo;t need to think much about version management because there wasn&amp;rsquo;t much to manage. Over the years, a lot has changed.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jq: Ad hoc JSON processing made easy</title>
+				<link>https://blog.hakanserce.com/post/jq/</link>
+				<pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
+				<guid>https://blog.hakanserce.com/post/jq/</guid>
+				<description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Do Programmers Actually Need Touch Typing?</title>
+				<link>https://blog.hakanserce.com/post/do-programmers-actually-need-touch-typing/</link>
+				<pubDate>Tue, 24 Oct 2017 16:04:22 -0700</pubDate>
+				<guid>https://blog.hakanserce.com/post/do-programmers-actually-need-touch-typing/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Touch typing (also called touch type or touch keyboarding) is typing without using the sense of sight to find the keys. Specifically, a touch typist will know their location on the keyboard through muscle memory.&lt;/em&gt; &lt;strong&gt;(Wikipedia)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;After about 20 years of programming with hunt and peck style shamelessly, I decided to learn touch typing a few months ago. I&amp;rsquo;ll talk about why I decided to learn touch typing at the end of this post, but I first want to spend time on the critical question: &amp;ldquo;Do Programmers Actually Need Touch Typing?&amp;rdquo;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

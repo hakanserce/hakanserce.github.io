@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Jq on Learn Forever</title>
-    <link>https://blog.hakanserce.com/tags/jq/</link>
-    <description>Recent content in Jq on Learn Forever</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 25 Nov 2025 10:08:42 -0800</lastBuildDate>
-    <atom:link href="https://blog.hakanserce.com/tags/jq/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Extracting Reddit Data with AI</title>
-      <link>https://blog.hakanserce.com/post/reddit-ai-integration/</link>
-      <pubDate>Tue, 25 Nov 2025 10:08:42 -0800</pubDate>
-      <guid>https://blog.hakanserce.com/post/reddit-ai-integration/</guid>
-      <description>&lt;p&gt;A few days ago, I stumbled upon a Reddit thread packed with API recommendations. The thread was long, detailed, and exactly what I needed—except I didn&amp;rsquo;t want to manually comb through dozens of comments. I figured this was the perfect job for AI. Spoiler alert: it wasn&amp;rsquo;t as straightforward as I expected.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>jq: Ad hoc JSON processing made easy</title>
-      <link>https://blog.hakanserce.com/post/jq/</link>
-      <pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
-      <guid>https://blog.hakanserce.com/post/jq/</guid>
-      <description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Jq on Learn Forever</title>
+		<link>https://blog.hakanserce.com/tags/jq/</link>
+		<description>Recent content in Jq on Learn Forever</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 25 Nov 2025 10:08:42 -0800</lastBuildDate>
+		
+			<atom:link href="https://blog.hakanserce.com/tags/jq/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Extracting Reddit Data with AI</title>
+				<link>https://blog.hakanserce.com/post/reddit-ai-integration/</link>
+				<pubDate>Tue, 25 Nov 2025 10:08:42 -0800</pubDate>
+				<guid>https://blog.hakanserce.com/post/reddit-ai-integration/</guid>
+				<description>&lt;p&gt;A few days ago, I stumbled upon a Reddit thread packed with API recommendations. The thread was long, detailed, and exactly what I needed—except I didn&amp;rsquo;t want to manually comb through dozens of comments. I figured this was the perfect job for AI. Spoiler alert: it wasn&amp;rsquo;t as straightforward as I expected.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jq: Ad hoc JSON processing made easy</title>
+				<link>https://blog.hakanserce.com/post/jq/</link>
+				<pubDate>Wed, 20 Dec 2017 21:55:00 -0800</pubDate>
+				<guid>https://blog.hakanserce.com/post/jq/</guid>
+				<description>&lt;p&gt;Nowadays, a developer needs to deal with JSON quite frequently. RESTful web services are everywhere. Whether you need to work with Elasticsearch, DynamoDB, Neo4j, Titan, or an internal Restful API for a web application you will probably end up dealing with JSON.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
